@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>links}}
+</head>
+
+<body>
+    {{!-- Navbar Section Using partials in EJS --}}
+    {{>navbar}}
+
+    <!-- Main Header part -->
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-12 col-12 mx-auto">
+                <div class="row">
+                    <!-- for left side -->
+                    <div class="col-md-12 col-12 main-header-left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.jpg" alt="danish" class="img-fluid align-items-center"
+                                title="danish iqbal">
+                        </figure>
+                        <p>Welcome to Weather App</p>
+                        <h1>Get The Latest <span> Weather </span> Info of Our City</h1>
+                        <a href="/weather"><button>check now</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+
+</body>
+
+</html>

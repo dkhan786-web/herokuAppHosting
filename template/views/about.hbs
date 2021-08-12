@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>links}}
+</head>
+
+<body>
+    {{!-- Navbar Section Using partials in EJS --}}
+    {{>navbar}}
+
+    <!-- Main Header part -->
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- for left side -->
+                    <div class="col-md-6 col-12 main-header-left align-items-center">
+                        <figure>
+                            <img src="./images/me-danish.jpg" alt="danish" class="img-fluid" title="danish iqbal">
+                        </figure>
+                    </div>
+                    <!-- for right side -->
+                    <div class="col-md-6 col-12 main-header-right">
+                        <p>Welcome to Weather App</p>
+                        <h1>I am a <span> Mern Stack Developer </span>, Designer and a Freelancer</h1>
+                        <a href="/weather"><button>About me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+
+</body>
+
+</html>
